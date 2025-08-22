@@ -13,7 +13,7 @@ export default function Home() {
           <h1 className="text-[#87C4FA] text-6xl md:text-8xl md:w-10/12">Exists to create the future of technology</h1>
           <h2 className="text-[#87C4FA] text-xl md:text-2xl md:w-7/12">Kenny Otesile leads cutting-edge research and development, transforming bold ideas into transformative services and companies.</h2>
           <div className="flex flex-col md:flex-row gap-2">
-            <Button asChild className="relative z-1 bg-[#0052FF] text-white border border-transparent hover:bg-transparent hover:border-[#0052FF] hover:text-[#0052FF] mr-12 md:mr-0">
+            <Button asChild className="bg-[#0052FF] text-white border border-transparent hover:bg-transparent hover:border-[#0052FF] hover:text-[#0052FF]">
               <Link href="/contact">CONTACT US</Link>
             </Button>
             <Button className="bg-white text-black border border-transparent hover:bg-transparent hover:border-white hover:text-white">JOIN KENNY OTESILE TECH FELLOWSHIP</Button>
