@@ -24,7 +24,7 @@ const sangblueKingdom = localFont({
 });
 
 export const metadata = {
-  title: "The Kenny Otesile Company",
+  title: "Kenny Otesile Technologies",
 };
 
 export default function RootLayout({ children }) {
