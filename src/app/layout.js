@@ -25,6 +25,7 @@ const sangblueKingdom = localFont({
 
 export const metadata = {
   title: "Kenny Otesile Technologies",
+  themeColor: "#09090B",
 };
 
 export default function RootLayout({ children }) {
