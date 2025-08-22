@@ -40,7 +40,9 @@ export default function Header({
                     </li>
                 </ul>
             </nav>
-            <Button className="relative z-1 bg-[#0052FF] text-white border border-transparent hover:bg-transparent hover:border-[#0052FF] hover:text-[#0052FF] mr-12 md:mr-0">CONTACT</Button>
+            <Button asChild className="relative z-1 bg-[#0052FF] text-white border border-transparent hover:bg-transparent hover:border-[#0052FF] hover:text-[#0052FF] mr-12 md:mr-0">
+                <Link href="/contact">CONTACT</Link>
+            </Button>
         </header>
     );
 }
