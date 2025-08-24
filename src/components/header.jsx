@@ -5,7 +5,8 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function Header({
     theme,
@@ -31,6 +32,12 @@ export default function Header({
             href: "/news",
         },
     ];
+
+    const pathname = usePathname();
+
+    useEffect(() => {
+        setShowMobileMenu(false);
+    }, [pathname]);
 
     return (
         <>
