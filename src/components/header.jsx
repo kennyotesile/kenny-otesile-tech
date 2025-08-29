@@ -16,20 +16,16 @@ export default function Header({
 
     const navItems = [
         {
-            label: "RESEARCH",
-            href: "/research",
+            label: "R&D",
+            href: "/",
         },
         {
             label: "FELLOWSHIP",
-            href: "/fellowship",
-        },
-        {
-            label: "CAREERS",
-            href: "/careers",
+            href: "/",
         },
         {
             label: "NEWS",
-            href: "/news",
+            href: "/",
         },
     ];
 
