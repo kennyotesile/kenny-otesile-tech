@@ -16,11 +16,19 @@ export default function Header({
 
     const navItems = [
         {
-            label: "R&D",
+            label: "FELLOWSHIP",
             href: "/",
         },
         {
-            label: "FELLOWSHIP",
+            label: "RESEARCH AREAS",
+            href: "/",
+        },
+        {
+            label: "PORTFOLIO",
+            href: "/",
+        },
+        {
+            label: "INSTITUTE",
             href: "/",
         },
         {
