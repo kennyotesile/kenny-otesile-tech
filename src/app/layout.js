@@ -25,8 +25,11 @@ const sangblueKingdom = localFont({
 
 export const metadata = {
   title: "Kenny Otesile - Technology Research, Engineering & Entrepreneurship",
-  themeColor: "#09090B",
 };
+
+export const viewport = {
+  themeColor: "#09090B",
+}
 
 export default function RootLayout({ children }) {
   return (
