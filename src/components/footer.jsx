@@ -41,7 +41,7 @@ export default function Footer({
                     </li>
                 </ul>
                 <div className="flex flex-1">
-                    &copy; KENNY OTESILE {(new Date()).getFullYear()}
+                    &copy; KENNY OTESILE CO LIMITED {(new Date()).getFullYear()}
                 </div>
             </div>
         </footer>
