@@ -24,7 +24,7 @@ export default function Header({
             href: "/",
         },
         {
-            label: "PORTFOLIO",
+            label: "INITIATIVES",
             href: "/",
         },
         {
