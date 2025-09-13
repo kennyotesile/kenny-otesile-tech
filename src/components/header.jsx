@@ -20,17 +20,17 @@ export default function Header({
             href: "/",
         },
         {
+            label: "COMPANIES",
+            href: "/",
+        },
+        {
             label: "FELLOWSHIP",
             href: "/",
         },
-        {
-            label: "INITIATIVES",
-            href: "/",
-        },
-        {
-            label: "INSTITUTE",
-            href: "/",
-        },
+        // {
+        //     label: "INSTITUTE",
+        //     href: "/",
+        // },
         {
             label: "NEWS",
             href: "/",
@@ -48,7 +48,7 @@ export default function Header({
             <header className={`${theme == "dark" && "dark"} bg-background text-foreground flex relative justify-between items-center h-20 px-6 sm:px-8 md:px-12 xl:px-16`} {...props}>
                 {/* Logo */}
                 <Link href="/">
-                    <Image src={`${theme == "dark" ? "/kenny-otesile-logo-white.svg" : "/kenny-otesile-logo.svg"}`} width={122} height={63} className="relative z-1 w-20" alt="Kenny Otesile logo" />
+                    <Image src={`${theme == "dark" ? "/kenny-otesile-logo-white.svg" : "/kenny-otesile-logo.svg"}`} width={122} height={63} className="relative z-1 w-20" alt="Kenny Otesile logo" priority />
                 </Link>
                 <nav className="flex absolute inset-x-0 px-6 justify-end md:justify-center">
                     <Button size="icon" variant="ghost" className="md:hidden" onClick={() => setShowMobileMenu(true)}>
