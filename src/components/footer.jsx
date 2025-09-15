@@ -41,7 +41,9 @@ export default function Footer({
                     </li>
                 </ul>
                 <div className="flex flex-1">
-                    &copy; KENNY OTESILE CO LIMITED {(new Date()).getFullYear()}
+                    &copy; KENNY OTESILE TECHNOLOGIES {new Date().getFullYear() > 2025
+                        ? `2025 - ${new Date().getFullYear()}`
+                        : "2025"}
                 </div>
             </div>
         </footer>
