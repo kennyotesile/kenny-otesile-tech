@@ -20,17 +20,13 @@ export default function Header({
             href: "/",
         },
         {
-            label: "COMPANIES",
+            label: "WORK",
             href: "/",
         },
         {
             label: "FELLOWSHIP",
             href: "/",
         },
-        // {
-        //     label: "INSTITUTE",
-        //     href: "/",
-        // },
         {
             label: "NEWS",
             href: "/",
