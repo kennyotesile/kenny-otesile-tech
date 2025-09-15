@@ -10,8 +10,8 @@ export default function Home() {
 
       <main>
         <section className="dark bg-background flex flex-col gap-8 py-16 px-6 sm:px-8 md:px-12 xl:px-16">
-          <h1 className="text-[#87C4FA] text-6xl md:text-8xl md:w-10/12">Exists to create the future of the world</h1>
-          <h2 className="text-[#87C4FA] text-xl md:text-2xl md:w-7/12">The Kenny Otesile company leads cutting-edge research and development, transforming bold ideas into transformative services and initiatives.</h2>
+          <h1 className="text-[#87C4FA] text-6xl md:text-8xl md:w-10/12 xl:w-8/12">Exists to create the future of the world</h1>
+          <h2 className="text-[#87C4FA] text-xl md:text-2xl md:w-7/12">Kenny Otesile Technologies leads cutting-edge research and development, transforming bold ideas into transformative services and initiatives.</h2>
           <div className="flex flex-col md:flex-row gap-2">
             <Button asChild className="bg-[#0052FF] text-white border border-transparent hover:bg-transparent hover:border-[#0052FF] hover:text-[#0052FF]">
               <Link href="/contact">CONTACT</Link>
