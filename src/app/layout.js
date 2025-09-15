@@ -24,7 +24,7 @@ const sangblueKingdom = localFont({
 });
 
 export const metadata = {
-  title: "Kenny Otesile - Technology Research, Engineering, Entrepreneurship",
+  title: "Kenny Otesile Technologies",
 };
 
 export const viewport = {

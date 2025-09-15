@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Contact - Kenny Otesile",
+  title: "Contact - Kenny Otesile Technologies",
 };
 
 export default function ContactLayout({ children }) {
