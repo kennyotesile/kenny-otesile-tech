@@ -41,7 +41,7 @@ export default function Footer({
                     </li>
                 </ul>
                 <div className="flex flex-1">
-                    &copy; KENNY OTESILE TECHNOLOGIES {new Date().getFullYear() > 2025
+                    &copy; {"Kenny Otesile Technology Research".toUpperCase()} {new Date().getFullYear() > 2025
                         ? `2025 - ${new Date().getFullYear()}`
                         : "2025"}
                 </div>
